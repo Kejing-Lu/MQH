@@ -18,10 +18,10 @@ $ cd build
 $ cmake ..
 $ make
 ```
-## Run MQH (An exmaple for Music) 
+## Run MQH (An example for Music) 
 ```shell
 $ bash run_example.sh
 ```
-## Prammeters
+## Parameters
 
-* See the explanations of paramters in run_example.sh
+* See the explanations of parameters in run_example.sh
