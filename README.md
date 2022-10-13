@@ -23,6 +23,16 @@ $ make
 ```shell
 $ bash run_example.sh
 ```
-## Parameters
+## Description of Parameters
+Paramters of Data 
+* `n` is data size, `d` is the dimension of data and `q` is the size of query set.
+* The path of data can be set directly in the provided script.
 
-* See the explanations of parameters in run_example.sh
+Internal Parameters
+* `l0` is an internal parmeter and is suggested to set to 5. the number of traning samples is set to 10K.
+
+User-specified Parameters
+* `k` is the number of returned points (top-k search).
+* `delta` is the parameter controlling the tradeoff between efficiency and accuracy. `delta` is suggested to take value in [0.3, 0.5]. 
+* `flag` is for the choice of algorithm. `flag=1` for the algorithm with strict probability guarantees on recall rates and `flag=0` for the fast algorithm with conditional guarantees. 
+
