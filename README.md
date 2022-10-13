@@ -29,7 +29,7 @@ Paramters of Data
 * The path of data can be set directly in the provided script.
 
 Internal Parameters
-* `l0` is an internal parmeter and is suggested to set to 5. the number of traning samples is set to 10K.
+* `l0` is an internal parmeter and is suggested to set to 5. The number of traning samples is set to 10K.
 
 User-specified Parameters
 * `k` is the number of returned points (top-k search).
